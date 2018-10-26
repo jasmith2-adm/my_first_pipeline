@@ -2,7 +2,7 @@ node {
     stage ('stage1') {
          sh 'echo "automate that &!%#& !!"'
     }
-    state ('stage2') {
+    stage ('stage2') {
          sh 'echo "hey, this is stage two folks!"'
     }
     stage ('stage3') {
